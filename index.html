@@ -1,0 +1,509 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Oussama Elhadi</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
+   <!-- aos css link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+
+<?php
+
+if(isset($message)){
+   foreach($message as $message){
+      echo '
+      <div class="message" data-aos="zoom-out">
+         <span>'.$message.'</span>
+         <i class="fas fa-times" onclick="this.parentElement.remove();"></i>
+      </div>
+      ';
+   }
+}
+
+?>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+   <a href="#home" class="logo">Portfolio</a>
+
+   <nav class="navbar">
+      <a href="#home" class="active">home</a>
+      <a href="#about">about</a>
+      <a href="#services">services</a>
+      <a href="#portfolio">portfolio</a>
+      <a href="#contact">contact</a>
+   </nav>
+
+   <div class="follow">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="https://www.linkedin.com/in/oussama-elhadi-35113719a" class="fab fa-linkedin"></a>
+      <a href="#" class="fab fa-github"></a>
+   </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="image" data-aos="fade-right">
+      <img src="photo1664551780.jpeg" alt="">
+   </div>
+
+   <div class="content">
+      <h3 data-aos="fade-up">Hey everybody,<br> I Am <br> Oussama Elhadi</h3>
+      <span data-aos="fade-up"> developer & designer </span>
+      <p data-aos="fade-up">My name is Oussama Elhadi, I'm a Full-stack developer based in Casablanca, Morocco. I have developed many types of Websites from well know DJ applications to Ecommerce booking platforms.</p>
+      <a data-aos="fade-up" href="#about" class="btn">about me</a>
+   </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+   <h1 class="heading" data-aos="fade-up"> <span>biography</span> </h1>
+
+   <div class="biography">
+
+      <p data-aos="fade-up">Oussama  Elhadi is a  4th year undergraduate student at the University MUNDIAPOLIS. He is  primarily a native web & mobile applications developer who brings his Back-end & Front-end development  background together to help build software solutions that target the Web & mobile platform. Oussama also has skills in the  artificial intelligence that help build  Something creative. He began his development journey as a hobbyist and is now looking forward to working with companies & clients .
+Reach out to Oussama on linkedin at <a href="https://www.linkedin.com/in/oussama-elhadi-35113719a" style="color:Red;"> < Oussama Elhadi ></a> and check out his  github at Oussama1002.
+</p>
+
+      <div class="bio">
+         <h3 data-aos="zoom-in"> <span>name : </span> Oussama Elhadi </h3>
+         <h3 data-aos="zoom-in"> <span>email : </span> oussamaelhadi11@gmail.com </h3>
+         <h3 data-aos="zoom-in"> <span>address : </span> Casablanca, Morocco </h3>
+         <h3 data-aos="zoom-in"> <span>phone : </span> +2126 37 91 61 34 </h3>
+         <h3 data-aos="zoom-in"> <span>age : </span> 21 years old </h3>
+         <h3 data-aos="zoom-in"> <span>experience : </span> 2+ years </h3>
+      </div>
+
+      <a href="OUSSAMA ELHADI.pdf" target="_blank" class="btn" data-aos="fade-up">download CV</a>
+
+   </div>
+   
+   <div class="skills" data-aos="fade-up">
+
+      <h1 class="heading"> <span>skills</span> </h1>
+      <h1 class="under-heading"> <span>Programming laguages</span> </h1>
+
+
+      <div class="progress">
+         
+      <div class="bar" data-aos="fade-left"> <h3><span>PHP</span> <span>100%</span></h3> </div>
+
+      <div class="bar" data-aos="fade-right"> <h3><span>HTML / CSS</span> <span>100%</span></h3> </div>
+
+      <div class="bar" data-aos="fade-left"> <h3><span>JavaScript</span> <span>90%</span></h3> </div>
+
+      <div class="bar" data-aos="fade-right"> <h3><span>Python</span> <span>80%</span></h3> </div>
+         <div class="bar" data-aos="fade-left"> <h3><span>Sketch(Arduino)</span> <span>80%</span></h3> </div>
+         <div class="bar" data-aos="fade-left"> <h3><span>JAVA / JAVAFX</span> <span>70%</span></h3> </div>
+        
+        <br><br><br><br>
+         <h1 class="under-heading"> <span>Frameworks</span> </h1>
+
+         <div class="progress">
+         
+         <div class="bar" data-aos="fade-left"> <h3><span> JQWERY</span> <span>100%</span></h3> </div>
+   
+         <div class="bar" data-aos="fade-right"> <h3><span>React</span> <span>100%</span></h3> </div>
+   
+         <div class="bar" data-aos="fade-left"> <h3><span> Angular</span> <span>90%</span></h3> </div>
+   
+         <div class="bar" data-aos="fade-right"> <h3><span>Laravel</span> <span>80%</span></h3> </div>
+            <div class="bar" data-aos="fade-left"> <h3><span>Spring</span> <span>80%</span></h3> </div>
+            
+          <br><br><br><br>
+            <h1 class="under-heading"> <span> Network Administration</span> </h1>
+
+<div class="progress">
+
+<div class="bar" data-aos="fade-left"> <h3><span>Linux(Ubuntu)</span> <span>100%</span></h3> </div>
+
+<div class="bar" data-aos="fade-right"> <h3><span>Packet Racer</span> <span>100%</span></h3> </div>
+<br><br><br><br>
+<h1 class="under-heading"> <span> Database</span> </h1>
+
+<div class="progress">
+
+<div class="bar" data-aos="fade-left"> <h3><span>MySQL</span> <span>100%</span></h3> </div>
+
+<div class="bar" data-aos="fade-right"> <h3><span>Firebase</span> <span>100%</span></h3> </div>
+<div class="bar" data-aos="fade-right"> <h3><span>NoSQL</span> <span>90%</span></h3> </div>
+<br><br><br><br>
+<h1 class="under-heading"> <span>Design</span> </h1>
+
+<div class="progress">
+
+<div class="bar" data-aos="fade-left"> <h3><span>  Design (UI/UX)</span> <span>100%</span></h3> </div>
+
+<div class="bar" data-aos="fade-right"> <h3><span>bootstrap </span> <span>100%</span></h3> </div>
+
+<div class="bar" data-aos="fade-left"> <h3><span> Figma</span> <span>90%</span></h3> </div>
+
+<div class="bar" data-aos="fade-right"> <h3><span>Adobe Photoshop</span> <span>80%</span></h3> </div>
+   
+
+
+      </div>
+<style>
+   .under-heading{
+   margin-bottom: 1.5rem;
+   text-align: center;
+   color: rgb(94, 5, 5);
+}
+
+
+.under-heading span{
+   text-transform: uppercase;
+   color: rgb(94, 5, 5);
+
+   font-size: 3.5rem;
+   border-bottom: var(--border-bold);
+}
+   .about .skills .progress{
+   margin-top: 1rem;
+}
+
+.about .skills .progress .bar{
+   margin:1rem auto;
+   max-width: 70rem;
+   border:var(--border-bold);
+   padding:1rem;
+}
+
+.about .skills .progress .bar h3{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 2rem;
+   padding:1rem 2rem;
+   background-color: var(--red);
+}
+
+.about .skills .progress .bar span{
+   font-weight: normal;
+}
+
+.about .skills .progress .bar:nth-child(1) h3{
+   width: 100%;
+}
+   
+   .about .skills .progress .bar:nth-child(2) h3{
+      width: 100%;
+   }
+
+   .about .skills .progress .bar:nth-child(3) h3{
+      width: 90%;
+   }
+
+
+   .about .skills .progress .bar:nth-child(4) h3{
+      width: 80%;
+   }
+   .about .skills .progress .bar:nth-child(5) h3{
+      width: 80%;
+   }
+   .about .skills .progress .bar:nth-child(6) h3{
+      width: 70%;
+   }
+   .about .skills .progress .bar:nth-child(7) h3{
+      width: 70%;
+   }
+
+</style>
+   </div>
+
+   <div class="edu-exp">
+
+      <h1 class="heading" data-aos="fade-up"> <span>education & experience</span> </h1>
+
+      <div class="row">
+
+         <div class="box-container">
+
+            <h3 class="title" data-aos="fade-right">education</h3>
+
+            <div class="box" data-aos="fade-right">
+               <span>( 2018 - 2019 )</span>
+               <h3> baccalaureate - Groupe Scolaire Berra</h3>
+               <p>baccalaureate en sciences physique .</p>
+            </div>
+
+            <div class="box" data-aos="fade-right">
+               <span>( 2019 - 2021 )</span>
+               <h3>PREPARATORY CLASSES - MUNDIAPOLIS University</h3>
+               <p></p>
+            </div>
+
+            <div class="box" data-aos="fade-right">
+               <span>( 2021 - PRESENT )</span>
+               <h3>engineering cycle (SECOND YEAR)-MUNDIAPOLIS University
+</h3>
+               <p></p>
+            </div>
+
+         </div>
+
+         <div class="box-container">
+
+            <h3 class="title" data-aos="fade-left">experience</h3>
+
+            <div class="box" data-aos="fade-left">
+               <h3>Website With PHP/ HTML5/CSS3/JS/MYSQL</h3>
+               <p>Dynamic e-commerce website to sell clothing online with php/mysql/js/html5/css3.</p>
+            </div>
+
+            <div class="box" data-aos="fade-left">
+               <h3>Site web avec JS/JQWERY(AJAX)/ PHP/ HTML5/CSS3/MYSQL</h3>
+               <p>Dynamic scoring management website with php/mysql/js/html5/css3.</p>
+            </div>
+            <div class="box" data-aos="fade-left">
+               <h3>Application mobile with java</h3>
+               <p>Application of school research in java.</p>
+            </div>
+
+            <div class="box" data-aos="fade-left">
+               <h3>website with PHP/ HTML5/CSS3/JS/MYSQL</h3>
+               <p>Dynamic Library Management website in php/mysql/js/html5/css3.</p>
+            </div>
+            <div class="box" data-aos="fade-left">
+               <h3>website with PHP/ HTML5/CSS3/JS/MYSQL</h3>
+               <p>Dynamic Library Management website in php/mysql/js/html5/css3.</p>
+            </div>
+            <div class="box" data-aos="fade-left">
+               <h3>Mobile Application with JAVA FX/ SceneBuilder</h3>
+               <p> Design and implementation of an application that makes it easier 
+                  for doctors to manage their practice (Java FX and SceneBuilder ).</p>
+            </div>
+            <div class="box" data-aos="fade-left">
+               <h3>Project with Arduino</h3>
+               <p>Realization of a recoil radar( Arduino)</p>
+            </div>
+
+         </div>
+
+      </div>
+
+   </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+   <h1 class="heading" data-aos="fade-up"> <span>services</span> </h1>
+
+   <div class="box-container">
+
+      <div class="box" data-aos="zoom-in">
+         <i class="fas fa-code"></i>
+         <h3>web development</h3>
+         <p>I have gained enough experience to be experienced in this field    </p>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <i class="fas fa-paint-brush"></i>
+         <h3>graphic design</h3>
+         <p>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <i class="fab fa-bootstrap"></i>
+         <h3>artificial intelligence</h3>
+         <p>I'm very excited and looking forward to experimenting with my abilities in this field of artificial intelligence</p>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <i class="fas fa-chart-line"></i>
+         <h3>CyberSecurity</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, placeat veritatis accusantium nostrum rem ipsa.</p>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <i class="fas fa-bullhorn"></i>
+         <h3>digital marketing</h3>
+         <p>I still have some tendencies in digital marketing where I practice it a lot in free time.</p>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <i class="fab fa-wordpress"></i>
+         <h3>Mobile developement</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, placeat veritatis accusantium nostrum rem ipsa.</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- portfolio section starts  -->
+
+<!-- <section class="portfolio" id="portfolio">
+
+   <h1 class="heading" data-aos="fade-up"> <span>portfolio</span> </h1>
+
+   <div class="box-container">
+
+      <div class="box" data-aos="zoom-in">
+         <img src="img-1.jpg" alt="">
+         <h3>web development</h3>
+         <span>( 2020 - 2022 )</span>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="img-2.jpg" alt="">
+         <h3>web development</h3>
+         <span>( 2020 - 2022 )</span>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="img-3.jpg" alt="">
+         <h3>web development</h3>
+         <span>( 2020 - 2022 )</span>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="img-4.jpg" alt="">
+         <h3>web development</h3>
+         <span>( 2020 - 2022 )</span>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="img-5.jpg" alt="">
+         <h3>web development</h3>
+         <span>( 2020 - 2022 )</span>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="img-6.jpg" alt="">
+         <h3>web development</h3>
+         <span>( 2020 - 2022 )</span>
+      </div>
+      <div class="popup-image">
+      <span>&times;</span>
+      <img src="img-1.jpg" alt="">
+   </div>
+   <style>
+      .about .edu-exp .row .box-container .popup-image{
+position: fixed;
+top: 0%;
+left: 0%;
+background: rgba(0, 0, 0, .9);
+height: 100%;
+width: 100%;
+z-index: 100;
+}
+
+   </style>
+   </div>
+  
+<script>
+   document.querySelectorAll('.box')
+</script> 
+</section>-->
+
+<!-- portfolio section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+   <h1 class="heading" data-aos="fade-up"> <span>contact me</span> </h1>
+
+   <form action="" method="post">
+      <div class="flex">
+         <input data-aos="fade-right" type="text" name="name" placeholder="enter your name" class="box" required>
+         <input data-aos="fade-left" type="email" name="email" placeholder="enter your email" class="box" required>
+      </div>
+      <input data-aos="fade-up" type="number" min="0" name="number" placeholder="enter your number" class="box" required>
+      <textarea data-aos="fade-up" name="message" class="box" required placeholder="enter your message" cols="30" rows="10"></textarea>
+      <input type="submit" data-aos="zoom-in" value="send message" name="send" class="btn">
+   </form>
+
+   <div class="box-container">
+
+      <div class="box" data-aos="zoom-in">
+         <i class="fas fa-phone"></i>
+         <h3>phone</h3>
+         <p>+212 6 37 91 61 34</p>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <i class="fas fa-envelope"></i>
+         <h3>email</h3>
+         <p>oussamaelhadi11@gmail.com</p>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <i class="fas fa-map-marker-alt"></i>
+         <h3>address</h3>
+         <p>N°9, Tissir, Mediouna, Casablanca</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<div class="credit"> &copy; copyright @ <?php echo date('Y'); ?> by <span>Oussama Elhadi</span> </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+<!-- aos js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script>
+
+   AOS.init({
+      duration:800,
+      delay:300
+   });
+
+</script>
+   
+</body>
+</html>
